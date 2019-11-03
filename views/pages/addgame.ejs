@@ -1,0 +1,32 @@
+<% include ../partials/header %>
+<div class="container">
+<h1>AddGame</h1>
+  <form action="/addgameadd" method="POST">
+    <div class="form-group">
+      <label for="">Name</label>
+      <input type="text" class="form-control" value="" name="name" id="" aria-describedby="helpId"
+        placeholder="">
+      <small id="helpId" class="form-text text-muted">Help text</small>
+    </div>
+    <div class="form-group">
+      <label for="">Type</label>
+      <input type="text" class="form-control" value="" name="type" id=""
+        aria-describedby="helpId" placeholder="">
+      <small id="helpId" class="form-text text-muted">Help text</small>
+    </div>
+    <div class="form-group">
+      <label for="">Rate</label>
+      <input type="text" class="form-control" value="" name="rate" id="" aria-describedby="helpId"
+        placeholder="">
+      <small id="helpId" class="form-text text-muted">Help text</small>
+    </div>
+    <div class="form-group">
+      <label for="">Price</label>
+      <input type="text" class="form-control" value="" name="price" id="" aria-describedby="helpId"
+        placeholder="">
+      <small id="helpId" class="form-text text-muted">Help text</small>
+    </div>
+    <button type="submit" class="btn btn-primary">Add</button>
+  </form>
+</div>
+<% include ../partials/footer %>

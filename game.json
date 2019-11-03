@@ -1,0 +1,40 @@
+//1
+{
+    "_id" : ObjectId("5dbd344897ab75d379e67a7f"),
+    "Name" : "Gear 5",
+    "Type" : "RPG",
+    "Rate" : "17+",
+    "Price" : "750"
+}
+//2
+{
+    "_id" : ObjectId("5dbe3bcb4d49ed344c971cc5"),
+    "Name" : "justcouse 3",
+    "Type" : "FTP,RPG",
+    "Rate" : "13 +",
+    "Price" : "499"
+}
+//3
+{
+    "_id" : ObjectId("5dbe413897ab75d379e67d66"),
+    "Name" : "ROV",
+    "Type" : "Moba",
+    "Rate" : "13 +",
+    "Price" : "Free"
+}
+//4
+{
+    "_id" : ObjectId("5dbe44f97f4edb43b052b233"),
+    "Name" : "Thesim 4",
+    "Type" : "SIM",
+    "Rate" : "13 +",
+    "Price" : "1059"
+}
+//5
+{
+    "_id" : ObjectId("5dbe45f17f4edb43b052b234"),
+    "Name" : "Rainbow Six Siege",
+    "Type" : "FPS",
+    "Rate" : "17 +",
+    "Price" : "670"
+}

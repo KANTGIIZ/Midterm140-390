@@ -1,0 +1,37 @@
+<% include ../partials/header %>
+<div class="container">
+
+    <h1>Show list Game </h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Rate</th>
+                <th>Price</th>
+                <th><a name="" id="" class="btn btn-primary" href="/addgame" role="button">Add</a> </th>>
+            </tr>
+        </thead>
+        <tbody>
+            <%game.forEach(function(gamecode){ %>
+            <tr>
+
+                <td scope="row"><a> <%=gamecode.Name%> </a></td>
+                    <td><%=gamecode.Type%></td>
+                    <td><%=gamecode.Rate%></td>
+                    <td><%=gamecode.Price%></td>
+                    
+                    <td><a name="" id="" class="btn btn-warning" href="/gamedetails/<%=gamecode.Name%>" role="button">View</a>
+                        <a name="" id="" class="btn btn-info" href="/edit/<%=gamecode.Name%>" role="button">Edit</a>
+                        <a name="" id="" class="btn btn-danger" href="/delete/<%=gamecode.Name%>" role="button">Delete</a>
+                    </td>
+                </tr>
+                <%});%>
+            </tbody>
+        </table>
+
+
+   
+</div>
+<% include ../partials/footer %>
